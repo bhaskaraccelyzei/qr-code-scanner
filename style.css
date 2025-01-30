@@ -1,0 +1,30 @@
+:root{
+    --screen-background-color : hsl(212, 45%, 89%);
+    --card-background :  hsl(0, 0%, 100%);
+    --font-family: [Outfit](https://fonts.google.com/specimen/Outfit);
+    --card-title-font-color : hsl(218, 44%, 22%);;
+    --card-body-text-color : hsl(216, 15%, 48%);
+    
+}
+body{
+    margin : 0;
+    padding : 0;
+    background-color: var(--screen-background-color);
+    height: 100vh;
+}
+.container-fluid{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-text{
+    font-size: 12px;
+    text-align: center;
+    color: var(--card-body-text-color);
+    font-weight: 500;
+
+}
+.card-title{
+    color: var(--card-title-font-color);
+}
